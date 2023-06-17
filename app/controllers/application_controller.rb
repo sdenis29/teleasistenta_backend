@@ -5,9 +5,7 @@ class ApplicationController < ActionController::API
     firebase = Firebase::Client.new(firebase_url, firebase_secret)
 
     response = firebase.push("ElderTrack/consultations", {
-      "#{params["id"]}": {
-        "result": "sfsafasfas"
-      }
+      "result": "sfsafasfas"
     })
     render json: {}, status: :ok
   end
