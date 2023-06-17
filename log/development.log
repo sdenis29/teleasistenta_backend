@@ -1,0 +1,22 @@
+Started GET "/" for 127.0.0.1 at 2023-06-17 19:39:30 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/denisstoica/.rvm/gems/ruby-3.0.0/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/denisstoica/.rvm/gems/ruby-3.0.0/gems/railties-7.0.5/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.0ms | Allocations: 839)
+Completed 200 OK in 12ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 9783)
+
+
+Started POST "/send_consultation" for 127.0.0.1 at 2023-06-17 19:42:08 +0300
+Processing by ApplicationController#send_consultation as */*
+Completed 204 No Content in 0ms (Allocations: 98)
+
+
+Started POST "/send_consultation" for 127.0.0.1 at 2023-06-17 19:43:00 +0300
+Processing by ApplicationController#send_consultation as */*
+Completed 204 No Content in 12ms (ActiveRecord: 0.0ms | Allocations: 20173)
+
+
+Started POST "/send_consultation" for 127.0.0.1 at 2023-06-17 19:43:22 +0300
+Processing by ApplicationController#send_consultation as */*
+Completed 200 OK in 0ms (Views: 0.1ms | Allocations: 222)
+
+
