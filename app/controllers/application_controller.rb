@@ -7,7 +7,7 @@ class ApplicationController < ActionController::API
     response = firebase.push("ElderTrack/consultations", {
       "doctorUID": params["extension"][0]["valueReference"]["reference"],
       "patientUID": params["subject"]["reference"],
-      "description": params["extension"][0]["valueString"],
+      "description": params["extension"][1]["valueString"],
       "consultationCode": params["modifierExtension"][0]["valueCodeableConcept"]["coding"][0]["code"],
       "created_at": Time.zone.now.strftime("%d/%m/%Y").to_s,
       "result": "-"
